@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="800px"
+    android:layout_height="480px"
+    android:background="#00000000" android:id="@+id/rlBack">
+
+
+    <Button
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:id="@+id/btnShutter" android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp" android:background="@drawable/camera"/>
+    <TextView
+            android:layout_width="500px"
+            android:layout_height="60px"
+            android:id="@+id/lblRecogResult" android:layout_alignParentTop="true" android:layout_toRightOf="@+id/btnShutter"
+            android:layout_marginRight="20px" android:layout_marginTop="10px" android:textColor="#000000"
+            android:textSize="32px" android:gravity="center"
+            android:layout_alignParentRight="true" android:layout_marginLeft="20px"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50px"
+            android:text="Warning"
+            android:id="@+id/lblWarning"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20px" android:layout_marginRight="20px" android:textColor="#000000"
+            android:textSize="32px" android:gravity="center_vertical|left"/>
+
+</RelativeLayout>

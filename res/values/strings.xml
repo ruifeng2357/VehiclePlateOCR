@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CarOCRActivity!</string>
+    <string name="app_name">CarOCR</string>
+    <string name="error">试用已过</string>
+</resources>
