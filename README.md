@@ -1,5 +1,5 @@
-# CarNoOCR
-This is an android app to identify chinese car number.
+# VehiclePlateOCR
+This is an Android & iPhone app to identify Chinese Vehicle Plate Number.
 
 ##Introduction
 
